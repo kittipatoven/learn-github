@@ -1,0 +1,38 @@
+{
+  "conservative": {
+    "trend_weight": 0.30,
+    "volatility_weight": 0.25,
+    "momentum_weight": 0.10,
+    "historical_winrate_weight": 0.25,
+    "session_weight": 0.05,
+    "news_weight": 0.05,
+    "description": "Conservative strategy - Focus on stability and historical performance"
+  },
+  "balanced": {
+    "trend_weight": 0.25,
+    "volatility_weight": 0.20,
+    "momentum_weight": 0.15,
+    "historical_winrate_weight": 0.20,
+    "session_weight": 0.10,
+    "news_weight": 0.10,
+    "description": "Balanced strategy - Equal focus on all factors"
+  },
+  "aggressive": {
+    "trend_weight": 0.20,
+    "volatility_weight": 0.15,
+    "momentum_weight": 0.25,
+    "historical_winrate_weight": 0.15,
+    "session_weight": 0.15,
+    "news_weight": 0.10,
+    "description": "Aggressive strategy - Focus on momentum and current trends"
+  },
+  "scalping": {
+    "trend_weight": 0.15,
+    "volatility_weight": 0.30,
+    "momentum_weight": 0.25,
+    "historical_winrate_weight": 0.10,
+    "session_weight": 0.15,
+    "news_weight": 0.05,
+    "description": "Scalping strategy - Focus on volatility and short-term momentum"
+  }
+}

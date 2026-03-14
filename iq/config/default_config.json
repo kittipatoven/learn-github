@@ -1,0 +1,31 @@
+{
+  "ai": {
+    "trend_weight": 0.25,
+    "volatility_weight": 0.20,
+    "momentum_weight": 0.15,
+    "historical_winrate_weight": 0.20,
+    "session_weight": 0.10,
+    "news_weight": 0.10,
+    "confidence_threshold": 0.60
+  },
+  "ui": {
+    "theme": "dark",
+    "color_theme": "blue",
+    "window_width": 1200,
+    "window_height": 800,
+    "auto_refresh_interval": 30,
+    "show_tooltips": true,
+    "confirm_exit": true
+  },
+  "analysis": {
+    "default_date_range_days": 30,
+    "min_trades_for_analysis": 10,
+    "risk_free_rate": 0.02,
+    "confidence_level": 0.95,
+    "enable_advanced_metrics": true
+  },
+  "data_directory": "data",
+  "export_directory": "exports",
+  "log_level": "INFO",
+  "enable_debug": false
+}

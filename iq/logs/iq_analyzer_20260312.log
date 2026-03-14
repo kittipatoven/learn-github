@@ -1,0 +1,182 @@
+2026-03-12 15:41:31 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 15:41:33 - IQ_Analyzer_Pro - ERROR - Application error: 'StatsCards' object has no attribute 'grid'
+Traceback (most recent call last):
+  File "C:\Code\New folder\main.py", line 39, in main
+    app = MainApplication()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\main_app.py", line 59, in __init__
+    self.setup_gui()
+  File "C:\Code\New folder\ui\main_app.py", line 81, in setup_gui
+    self.create_tab_view()
+  File "C:\Code\New folder\ui\main_app.py", line 130, in create_tab_view
+    self.create_tabs()
+  File "C:\Code\New folder\ui\main_app.py", line 147, in create_tabs
+    self.analysis_tab = AnalysisTab(
+                        ^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\components\analysis_tab.py", line 34, in __init__
+    self.setup_ui()
+  File "C:\Code\New folder\ui\components\analysis_tab.py", line 46, in setup_ui
+    self.create_results_area()
+  File "C:\Code\New folder\ui\components\analysis_tab.py", line 125, in create_results_area
+    self.create_overview_tab()
+  File "C:\Code\New folder\ui\components\analysis_tab.py", line 150, in create_overview_tab
+    self.stats_cards.grid(row=0, column=0, sticky="ew", padx=10, pady=10)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StatsCards' object has no attribute 'grid'
+2026-03-12 15:43:05 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 15:43:06 - IQ_Analyzer_Pro - ERROR - Application error: '>' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "C:\Code\New folder\main.py", line 39, in main
+    app = MainApplication()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\main_app.py", line 59, in __init__
+    self.setup_gui()
+  File "C:\Code\New folder\ui\main_app.py", line 81, in setup_gui
+    self.create_tab_view()
+  File "C:\Code\New folder\ui\main_app.py", line 130, in create_tab_view
+    self.create_tabs()
+  File "C:\Code\New folder\ui\main_app.py", line 153, in create_tabs
+    self.ai_tab = AITab(
+                  ^^^^^^
+  File "C:\Code\New folder\ui\components\ai_tab.py", line 33, in __init__
+    self.setup_ui()
+  File "C:\Code\New folder\ui\components\ai_tab.py", line 42, in setup_ui
+    self.create_control_panel()
+  File "C:\Code\New folder\ui\components\ai_tab.py", line 69, in create_control_panel
+    self.trend_weight_slider = ctk.CTkSlider(
+                               ^^^^^^^^^^^^^^
+  File "C:\Code\Python 3.11.5\Lib\site-packages\customtkinter\windows\widgets\ctk_slider.py", line 106, in __init__
+    self.set(self._variable.get(), from_variable_callback=True)
+  File "C:\Code\Python 3.11.5\Lib\site-packages\customtkinter\windows\widgets\ctk_slider.py", line 368, in set
+    if output_value > self._to:
+       ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+2026-03-12 15:44:42 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 15:44:45 - IQ_Analyzer_Pro - ERROR - Application error: 'CTkSegmentedButton' object has no attribute '_buttons'
+Traceback (most recent call last):
+  File "C:\Code\New folder\main.py", line 39, in main
+    app = MainApplication()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\main_app.py", line 59, in __init__
+    self.setup_gui()
+  File "C:\Code\New folder\ui\main_app.py", line 81, in setup_gui
+    self.create_tab_view()
+  File "C:\Code\New folder\ui\main_app.py", line 133, in create_tab_view
+    self.tab_view._segmented_button._buttons[0].configure(command=lambda: self.on_tab_change(0))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CTkSegmentedButton' object has no attribute '_buttons'
+2026-03-12 15:45:34 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 15:45:37 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 15:46:45 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 15:46:47 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 15:54:43 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 15:54:45 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 16:07:15 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 16:07:19 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 16:22:36 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 16:22:37 - IQ_Analyzer_Pro - ERROR - Application error: 'LoginTab' object has no attribute 'load_from_api_direct'
+Traceback (most recent call last):
+  File "C:\Code\New folder\main.py", line 39, in main
+    app = MainApplication()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\main_app.py", line 59, in __init__
+    self.setup_gui()
+  File "C:\Code\New folder\ui\main_app.py", line 81, in setup_gui
+    self.create_tab_view()
+  File "C:\Code\New folder\ui\main_app.py", line 130, in create_tab_view
+    self.create_tabs()
+  File "C:\Code\New folder\ui\main_app.py", line 138, in create_tabs
+    self.login_tab = LoginTab(
+                     ^^^^^^^^^
+  File "C:\Code\New folder\ui\components\login_tab.py", line 31, in __init__
+    self.setup_ui()
+  File "C:\Code\New folder\ui\components\login_tab.py", line 41, in setup_ui
+    self.create_data_loading_section()
+  File "C:\Code\New folder\ui\components\login_tab.py", line 123, in create_data_loading_section
+    command=self.load_from_api_direct,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LoginTab' object has no attribute 'load_from_api_direct'
+2026-03-12 16:28:21 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 16:28:24 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 16:28:45 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 16:28:48 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 16:38:42 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 16:38:43 - IQ_Analyzer_Pro - ERROR - Application error: name 'tk' is not defined
+Traceback (most recent call last):
+  File "C:\Code\New folder\main.py", line 39, in main
+    app = MainApplication()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\main_app.py", line 64, in __init__
+    self.setup_gui()
+  File "C:\Code\New folder\ui\main_app.py", line 86, in setup_gui
+    self.create_tab_view()
+  File "C:\Code\New folder\ui\main_app.py", line 135, in create_tab_view
+    self.create_tabs()
+  File "C:\Code\New folder\ui\main_app.py", line 143, in create_tabs
+    self.login_tab = LoginTab(
+                     ^^^^^^^^^
+  File "C:\Code\New folder\ui\components\login_tab.py", line 29, in __init__
+    self.setup_ui()
+  File "C:\Code\New folder\ui\components\login_tab.py", line 39, in setup_ui
+    self.create_data_loading_section()
+  File "C:\Code\New folder\ui\components\login_tab.py", line 105, in create_data_loading_section
+    self.file_path_var = tk.StringVar()
+                         ^^
+NameError: name 'tk' is not defined
+2026-03-12 16:55:29 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 16:55:31 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 17:13:20 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 17:13:22 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 17:17:46 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 17:17:47 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 17:23:30 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 17:23:32 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 17:24:39 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 17:24:41 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 17:44:46 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 17:44:50 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 17:50:32 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 17:50:35 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 18:09:44 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 18:09:47 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 18:38:19 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 18:38:22 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 18:43:43 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 18:43:51 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 18:46:33 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 18:46:35 - IQ_Analyzer_Pro - ERROR - Application error: name 'logging' is not defined
+Traceback (most recent call last):
+  File "C:\Code\New folder\main.py", line 39, in main
+    app = MainApplication()
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\main_app.py", line 68, in __init__
+    self.setup_gui()
+  File "C:\Code\New folder\ui\main_app.py", line 119, in setup_gui
+    self.create_tab_view()
+  File "C:\Code\New folder\ui\main_app.py", line 168, in create_tab_view
+    self.create_tabs()
+  File "C:\Code\New folder\ui\main_app.py", line 194, in create_tabs
+    self.dashboard_tab = DashboardTab(
+                         ^^^^^^^^^^^^^
+  File "C:\Code\New folder\ui\components\dashboard_tab.py", line 35, in __init__
+    self.logger = logging.getLogger(__name__)
+                  ^^^^^^^
+NameError: name 'logging' is not defined
+2026-03-12 18:54:54 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 18:54:57 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 19:03:14 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 19:03:18 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 19:13:14 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 19:13:17 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 19:38:24 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 19:38:28 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 20:00:44 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 20:00:50 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 20:16:44 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 20:16:47 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 20:52:38 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 20:52:41 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 21:03:48 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 21:03:52 - IQ_Analyzer_Pro - INFO - Application initialized successfully
+2026-03-12 22:24:21 - IQ_Analyzer_Pro - INFO - Starting IQ Analyzer Pro...
+2026-03-12 22:24:25 - IQ_Analyzer_Pro - INFO - Application initialized successfully
